@@ -1,8 +1,5 @@
 lab
 ===
-
-lab 5
-
 import java.util.Scanner;
 
 
@@ -23,12 +20,27 @@ public class lab5 {
 	
 		
 		for ( int i=0; n>i	;i++){
-			// i (initial ) is the starting number 
+			// i is the starting number   
 			
-				int t=i;
-			// t = i so that later can prove the reverse number = initial number
+				int initial=i;
+			// initial = i so that later can prove the reverse number = initial number
 				while ( i>0){
 				rev = i%10;
+				i=i/10;
+				s=s*10+rev;
+				}
+				
+		
+				if ( initial==s){
+				System.out.print(initial);
+				break;
+				
+			
+					}	
+			
+			
+		}
+	}
 				i=i/10;
 				s=s*10+rev;
 				}
