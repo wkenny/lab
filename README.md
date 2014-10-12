@@ -41,27 +41,6 @@ public class lab5 {
 			
 		}
 	}
-				i=i/10;
-				s=s*10+rev;
-				}
-				
-		
-				if ( t==rev){
-				System.out.print(rev);
-				break;
-				
-			
-					}	
-			
-			
-		}
-	}
-	
-			
-	}
-	
-
-		
 
 	
 	
